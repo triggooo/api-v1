@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /api/v1/
+RewriteRule ^(.*)$ index.php [QSA,L]
